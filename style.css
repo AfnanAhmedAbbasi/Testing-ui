@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #6763e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#container {
+    width: 35vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    gap: 2vw;
+}
+
+.text {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.text p {
+    word-spacing: 2px;
+    font-size: 17px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    height: 36vh;
+    width: 95%;
+    justify-content: center;
+}
+
+input {
+    height: 8vh;
+    padding-left: 15px;
+    font-size: 1rem;
+}
+
+#signupBtn {
+    height: 6vh;
+    width: 95%;
+    text-align: center;
+    background-color: #6763e6;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+#signupBtn:hover {
+    background-color: #433fb4;
+    transition: all 0.2s ease-in-out;
+}
+
+.text2 {
+    font-size: 15px;
+}
+
+.text2 span {
+    margin-left: 3px;
+    cursor: pointer;
+    color: #1a5afb;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+    gap: 2vw;
+    height: 5vh;
+}
+
+.box input[type="checkbox"] {
+    transform: scale(1.5);
+    margin: 0 10px; 
+    cursor: pointer;
+}
